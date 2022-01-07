@@ -1,0 +1,41 @@
+{
+  "gitHub": "https://www.github.com/kanjurer",
+  "linkedIn": "https://www.linkedin.com/in/kanjurer",
+  "projects": [
+    {
+      "name": "tiptop",
+      "description": "hackathon project",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
+      "learningOutcomes": ["To create frontend", "Using component libraries"],
+      "repositoryLink": "https://www.github.com/kanjurer"
+    },
+    {
+      "name": "serobu",
+      "description": "hackathon project",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
+      "learningOutcomes": ["To create frontend", "Using component libraries"],
+      "repositoryLink": "https://www.github.com/kanjurer"
+    },
+    {
+      "name": "tiptop",
+      "description": "hackathon project",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
+      "learningOutcomes": ["To create frontend", "Using component libraries"],
+      "repositoryLink": "https://www.github.com/kanjurer"
+    },
+    {
+      "name": "tiptop",
+      "description": "hackathon project",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
+      "learningOutcomes": ["To create frontend", "Using component libraries"],
+      "repositoryLink": "https://www.github.com/kanjurer"
+    },
+    {
+      "name": "tiptop",
+      "description": "hackathon project",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
+      "learningOutcomes": ["To create frontend", "Using component libraries"],
+      "repositoryLink": "https://www.github.com/kanjurer"
+    }
+  ]
+}

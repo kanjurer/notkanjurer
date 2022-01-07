@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from 'react';
 import {
   ChakraProvider,
   Box,
@@ -8,31 +8,25 @@ import {
   Code,
   Grid,
   theme,
-} from "@chakra-ui/react"
-import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { Logo } from "./Logo"
+} from '@chakra-ui/react';
+import { ColorModeSwitcher } from './ColorModeSwitcher';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Logo } from './Logo';
+import NavBar from './components/NavBar/NavBar';
+import Projects from './components/Projects/Projects';
+import Home from './components/Home/Home';
+import Experience from './components/Experience/Experience';
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl">
-      <Grid minH="100vh" p={3}>
-        <ColorModeSwitcher justifySelf="flex-end" />
-        <VStack spacing={8}>
-          <Logo h="40vmin" pointerEvents="none" />
-          <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
-          </Text>
-          <Link
-            color="teal.500"
-            href="https://chakra-ui.com"
-            fontSize="2xl"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn Chakra
-          </Link>
-        </VStack>
-      </Grid>
-    </Box>
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        {' '}
+        <Route path="/home" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/experience" element={<Experience />} />
+      </Routes>
+    </BrowserRouter>
   </ChakraProvider>
-)
+);
