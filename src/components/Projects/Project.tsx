@@ -22,7 +22,7 @@ import { FaGithub } from 'react-icons/fa';
 export default function Project({ project }: ProjectProps): JSX.Element {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <LinkBox as="article" maxW="sm" p="5" m="5" borderWidth="1px" rounded="md">
+    <LinkBox w="400px" p="5" m="5" borderWidth="1px" rounded="md">
       <ProjectModal
         project={project}
         onOpen={onOpen}

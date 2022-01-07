@@ -3,6 +3,13 @@
   "linkedIn": "https://www.linkedin.com/in/kanjurer",
   "projects": [
     {
+      "name": "serobu",
+      "description": "hackathon project",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
+      "learningOutcomes": ["To create frontend", "Using component libraries"],
+      "repositoryLink": "https://www.github.com/kanjurer"
+    },
+    {
       "name": "tiptop",
       "description": "hackathon project",
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
@@ -10,7 +17,14 @@
       "repositoryLink": "https://www.github.com/kanjurer"
     },
     {
-      "name": "serobu",
+      "name": "tiptop",
+      "description": "hackathon project",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
+      "learningOutcomes": ["To create frontend", "Using component libraries"],
+      "repositoryLink": "https://www.github.com/kanjurer"
+    },
+    {
+      "name": "tiptop",
       "description": "hackathon project",
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
       "learningOutcomes": ["To create frontend", "Using component libraries"],

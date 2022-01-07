@@ -10,7 +10,6 @@ import {
   ModalFooter,
   ModalHeader,
   ModalOverlay,
-  useDisclosure,
   Image,
   Spacer,
   Flex,
@@ -19,16 +18,11 @@ import {
   Text,
 } from '@chakra-ui/react';
 
-import {
-  CheckCircleIcon,
-  SettingsIcon,
-  ExternalLinkIcon,
-} from '@chakra-ui/icons';
+import { CheckCircleIcon, ExternalLinkIcon } from '@chakra-ui/icons';
 import { FaGithub } from 'react-icons/fa';
-import Project from './Project';
 
 export default function ProjectModal(props: ProjectModalProps): JSX.Element {
-  const { isOpen, onOpen, onClose, project } = props;
+  const { isOpen, onClose, project } = props;
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
       <ModalOverlay />
