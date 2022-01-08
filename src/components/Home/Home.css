@@ -1,7 +1,7 @@
 .vStack {
   display: flex !important;
   position: absolute;
-  top: 200px;
+  top: 100px;
   right: 100px;
 }
 .hStack {

@@ -1,3 +1,4 @@
+import './Project.css';
 import {
   Box,
   Image,
@@ -13,7 +14,14 @@ import { ExternalLinkIcon } from '@chakra-ui/icons';
 export default function Project({ project }: ProjectProps): JSX.Element {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
-    <LinkBox w="400px" p="5" m="5" borderWidth="1px" rounded="md">
+    <LinkBox
+      className="project"
+      w="400px"
+      p="5"
+      m="5"
+      borderWidth="1px"
+      rounded="md"
+    >
       <ProjectModal
         project={project}
         onOpen={onOpen}

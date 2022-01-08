@@ -2,10 +2,18 @@ import { Box, Heading, Text, Flex, Tag, Tooltip } from '@chakra-ui/react';
 
 import data from '../../data.json';
 import ExperienceEntry from './ExperienceEntry';
+import WavesSVG from '../../SVGs/waves.svg';
 
 export default function Experience(): JSX.Element {
   return (
-    <Flex flexWrap="wrap" m={2}>
+    <Flex
+      flexWrap="wrap"
+      m={2}
+      backgroundImage={`url(${WavesSVG})`}
+      bgRepeat="no-repeat"
+      backgroundPosition="top"
+      paddingTop="90px"
+    >
       <Box>
         <Heading>Work Experience</Heading>
         <Box>

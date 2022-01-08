@@ -1,6 +1,14 @@
 {
-  "gitHub": "https://www.github.com/kanjurer",
-  "linkedIn": "https://www.linkedin.com/in/kanjurer",
+  "socials": {
+    "gitHub": "https://www.github.com/kanjurer",
+    "linkedIn": "https://www.linkedin.com/in/kanjurer",
+    "facebook": "https://www.facebook.com/kanjurer/",
+    "instagram": "https://www.instagram.com/kanjurer/",
+    "twitter": "https://twitter.com/kanjurer",
+    "reddit": "https://www.reddit.com/user/kanjurer",
+    "stackOverflow": "https://stackoverflow.com/users/13622018/kanjurer"
+  },
+
   "projects": [
     {
       "name": "serobu",
@@ -8,7 +16,8 @@
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
       "learningOutcomes": ["To create frontend", "Using component libraries"],
       "repositoryLink": "https://www.github.com/kanjurer",
-      "otherLinks": ["https://devpost.com/software/tiptop"]
+      "otherLinks": ["https://devpost.com/software/tiptop"],
+      "status": "others"
     },
     {
       "name": "tiptop",
@@ -16,7 +25,8 @@
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git", "NodeJS"],
       "learningOutcomes": ["To create frontend", "Using component libraries"],
       "repositoryLink": "https://www.github.com/kanjurer",
-      "otherLinks": ["https://devpost.com/software/tiptop"]
+      "otherLinks": ["https://devpost.com/software/tiptop"],
+      "status": "others"
     },
     {
       "name": "FoodHood",
@@ -38,39 +48,73 @@
         "Created the Frontend with UI libraries, CSS, CSS preprocessors, etc."
       ],
       "repositoryLink": "https://www.github.com/kanjurer",
-      "otherLinks": ["https://devpost.com/software/tiptop"]
+      "otherLinks": ["https://devpost.com/software/tiptop"],
+      "status": "featured"
     },
     {
-      "name": "tiptop",
-      "description": "hackathon project",
-      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
-      "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer",
-      "otherLinks": ["https://devpost.com/software/tiptop"]
+      "name": "resume",
+      "description": "This is my resume website with information about me, projects, and experiences!",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git", "ChakraUI"],
+      "learningOutcomes": [
+        "To create frontend",
+        "Using component libraries",
+        "Using Git as version control",
+        "Dark Mode"
+      ],
+      "repositoryLink": "https://github.com/kanjurer/kanjurer-resume",
+      "otherLinks": ["http://www.kanjurer.xyz"],
+      "status": "featured"
     },
     {
-      "name": "tiptop",
-      "description": "hackathon project",
-      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
-      "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer",
-      "otherLinks": ["https://devpost.com/software/tiptop"]
+      "name": "sociohab",
+      "description": "a startup idea to help people develop habits by competing and communicating with other people, posting, and reading related blog posts. Although still in prototype phase, I have been actively working on this project from past 1 month",
+      "skills": [
+        "ReactJS",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Git",
+        "NodeJS",
+        "ExpressJS",
+        "React-Native",
+        "MongoDB",
+        "TypeScript",
+        "NextJS"
+      ],
+      "learningOutcomes": ["", "Develop User Authentication"],
+      "repositoryLink": "https://github.com/kanjurer/sociohab-frontend",
+      "otherLinks": ["https://github.com/kanjurer/sociohab-backend"],
+      "status": "current"
     },
     {
-      "name": "tiptop",
-      "description": "hackathon project",
-      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
-      "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer",
-      "otherLinks": ["https://devpost.com/software/tiptop"]
+      "name": "old-resume-website",
+      "description": "This is my old resume website with information about me, projects, and experiences!",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git", "MaterialUI"],
+      "learningOutcomes": [
+        "To create frontend",
+        "Using component libraries",
+        "Using Git as version control"
+      ],
+      "repositoryLink": "https://github.com/kanjurer/resume",
+      "otherLinks": ["http://www.kanjurer.xyz"],
+      "status": "others"
     },
     {
-      "name": "tiptop",
-      "description": "hackathon project",
-      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
-      "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer",
-      "otherLinks": ["https://devpost.com/software/tiptop"]
+      "name": "youraveragecsguy",
+      "description": "a project to share CS knowledge with people. This is a place where I will be uploading all my notes that I take throughout the my university. Still under development",
+      "skills": [
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "NextJS",
+        "MongoDB or SQL",
+        "TypeScript",
+        "HTML, CSS"
+      ],
+      "learningOutcomes": ["N/A"],
+      "repositoryLink": "https://www.github.com/kanjurer/youraveragecsguy-fe",
+      "otherLinks": [],
+      "status": "current"
     }
   ],
   "experiences": {

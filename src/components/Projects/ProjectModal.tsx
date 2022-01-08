@@ -28,8 +28,8 @@ export default function ProjectModal(props: ProjectModalProps): JSX.Element {
         <ModalCloseButton />
         <ModalBody>
           <Image src={'projectImages/' + project.name + '.png'} />
+          <br />
           <Text>{project.description}</Text>
-          <hr />
           <br />
           <Text fontSize="2xl">What did I do:</Text>
           <List spacing={2}>
@@ -52,7 +52,12 @@ export default function ProjectModal(props: ProjectModalProps): JSX.Element {
           </List>
         </ModalBody>
         <ModalFooter>
-          <Button colorScheme="blackAlpha" mr={3} leftIcon={<FaGithub />}>
+          <Button
+            color="white"
+            colorScheme="blackAlpha"
+            mr={3}
+            leftIcon={<FaGithub />}
+          >
             <Link href="https://github.com/kanjurer" isExternal>
               Repository
             </Link>

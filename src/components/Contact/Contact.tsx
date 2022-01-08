@@ -11,13 +11,21 @@ import {
   Textarea,
 } from '@chakra-ui/react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import BlobSVG from '../../SVGs/blob.svg';
 
 export default function Contact(): JSX.Element {
   return (
-    <Box m={2}>
+    <Box
+      m="auto"
+      width="75%"
+      backgroundImage={`url(${BlobSVG})`}
+      bgRepeat="no-repeat"
+      backgroundPosition="top"
+      paddingTop="90px"
+    >
       <Heading>Reach Out To Me!</Heading>
       <Box>
-        <Box w="50%" ml={10}>
+        <Box>
           <Text fontSize="4xl">My Socials</Text>
           <HStack>
             <Button colorScheme="facebook" size="lg" p="-1">
@@ -41,20 +49,19 @@ export default function Contact(): JSX.Element {
             background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
             zIndex: '100',
             borderRadius: '20px',
+            padding: '5px',
+            margin: '5px',
           }}
         >
           <Heading fontSize="72px">OR</Heading>
         </Box>
-        <br /> <br /> <Divider />
-        <Box w="50%" m={10}>
+        <br />
+        <br />
+        <Divider />
+        <Box>
           <Text fontSize="4xl">Leave a Message!</Text>
-          <Box w="50%" m="2">
-            <form
-              action="mailto:contact@yourdomain.com"
-              method="POST"
-              encType="multipart/form-data"
-              name="EmailForm"
-            >
+          <Box m="2">
+            <form>
               <FormControl>
                 <FormLabel htmlFor="name">Your Name</FormLabel>
                 <Input id="name" type="text" />
