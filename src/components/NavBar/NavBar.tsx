@@ -1,14 +1,13 @@
-import { Button, Flex, Spacer, Link, HStack } from '@chakra-ui/react';
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
+import { Flex, Spacer, HStack } from '@chakra-ui/react';
+
 import { Link as RRLink } from 'react-router-dom';
-import data from '../../data.json';
 
 import { ColorModeSwitcher } from '../../ColorModeSwitcher';
 
 export default function NavBar(): JSX.Element {
   return (
     <Flex padding="20px">
-      <HStack spacing="12px">
+      <HStack spacing="15px" fontWeight="bold">
         <RRLink to="/home">Home</RRLink>
         <RRLink to="/projects">Projects</RRLink>
         <RRLink to="/experience">Experience</RRLink>
@@ -16,16 +15,6 @@ export default function NavBar(): JSX.Element {
       </HStack>
       <Spacer />
       <HStack>
-        <Link href={data.gitHub} target="_blank">
-          <Button variant="ghost">
-            <AiFillGithub />
-          </Button>
-        </Link>
-        <Link href={data.linkedIn} target="_blank">
-          <Button variant="ghost">
-            <AiFillLinkedin />
-          </Button>
-        </Link>
         <ColorModeSwitcher />
       </HStack>
     </Flex>

@@ -2,11 +2,9 @@ import {
   Badge,
   Box,
   Flex,
-  Grid,
   List,
   ListIcon,
   ListItem,
-  Spacer,
   Text,
 } from '@chakra-ui/react';
 import { BsCheck } from 'react-icons/bs';

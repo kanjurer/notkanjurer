@@ -11,14 +11,11 @@ import {
   ModalHeader,
   ModalOverlay,
   Image,
-  Spacer,
-  Flex,
-  Heading,
   Link,
   Text,
 } from '@chakra-ui/react';
 
-import { CheckCircleIcon, ExternalLinkIcon } from '@chakra-ui/icons';
+import { CheckCircleIcon, SettingsIcon } from '@chakra-ui/icons';
 import { FaGithub } from 'react-icons/fa';
 
 export default function ProjectModal(props: ProjectModalProps): JSX.Element {
@@ -30,39 +27,36 @@ export default function ProjectModal(props: ProjectModalProps): JSX.Element {
         <ModalHeader>{project.name}</ModalHeader>
         <ModalCloseButton />
         <ModalBody>
-          <Image src="https://bit.ly/2Z4KKcF" />
+          <Image src={'projectImages/' + project.name + '.png'} />
           <Text>{project.description}</Text>
           <hr />
-          <Flex>
-            <List spacing={3}>
-              {project.learningOutcomes.map((o) => (
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color="green.500" />
-                  {o}
-                </ListItem>
-              ))}
-            </List>
-            <Spacer />
-            <List spacing={3}>
-              {project.skills.map((o) => (
-                <ListItem>
-                  <ListIcon as={CheckCircleIcon} color="green.500" />
-                  {o}
-                </ListItem>
-              ))}
-            </List>
-          </Flex>
-          <Heading>Links</Heading>
-          <Link href="https://github.com/kanjurer" isExternal>
-            <FaGithub />
-            <ExternalLinkIcon mx="2px" />
-          </Link>
+          <br />
+          <Text fontSize="2xl">What did I do:</Text>
+          <List spacing={2}>
+            {project.learningOutcomes.map((o) => (
+              <ListItem>
+                <ListIcon as={CheckCircleIcon} color="green.500" />
+                {o}
+              </ListItem>
+            ))}
+          </List>
+          <br />
+          <Text fontSize="2xl">Technologies Used:</Text>
+          <List display="grid" gridTemplateColumns="200px 200px">
+            {project.skills.map((o) => (
+              <ListItem>
+                <ListIcon as={SettingsIcon} color="orange.500" />
+                {o}
+              </ListItem>
+            ))}
+          </List>
         </ModalBody>
         <ModalFooter>
-          <Button colorScheme="blue" mr={3}>
-            Lol
+          <Button colorScheme="blackAlpha" mr={3} leftIcon={<FaGithub />}>
+            <Link href="https://github.com/kanjurer" isExternal>
+              Repository
+            </Link>
           </Button>
-          <Button variant="ghost">Secondary Action</Button>
         </ModalFooter>
       </ModalContent>
     </Modal>

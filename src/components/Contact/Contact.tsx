@@ -3,7 +3,6 @@ import {
   Button,
   Divider,
   FormControl,
-  FormHelperText,
   FormLabel,
   Heading,
   HStack,
@@ -11,19 +10,11 @@ import {
   Text,
   Textarea,
 } from '@chakra-ui/react';
-import {
-  FaDownload,
-  FaFacebook,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaShare,
-  FaTwitter,
-} from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 export default function Contact(): JSX.Element {
   return (
-    <Box marginTop="50px">
+    <Box m={2}>
       <Heading>Reach Out To Me!</Heading>
       <Box>
         <Box w="50%" ml={10}>
@@ -58,7 +49,12 @@ export default function Contact(): JSX.Element {
         <Box w="50%" m={10}>
           <Text fontSize="4xl">Leave a Message!</Text>
           <Box w="50%" m="2">
-            <form>
+            <form
+              action="mailto:contact@yourdomain.com"
+              method="POST"
+              encType="multipart/form-data"
+              name="EmailForm"
+            >
               <FormControl>
                 <FormLabel htmlFor="name">Your Name</FormLabel>
                 <Input id="name" type="text" />
@@ -71,7 +67,7 @@ export default function Contact(): JSX.Element {
                 <FormLabel htmlFor="message">Message</FormLabel>
                 <Textarea id="message" type="text" />
               </FormControl>
-              <Button colorScheme="teal" size="lg">
+              <Button type="submit" colorScheme="teal" size="lg" m={2}>
                 Send
               </Button>
             </form>

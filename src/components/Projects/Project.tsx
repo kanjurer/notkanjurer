@@ -1,23 +1,14 @@
 import {
   Box,
-  Button,
-  Flex,
-  Grid,
-  Heading,
   Image,
   Link,
   LinkBox,
   LinkOverlay,
   useDisclosure,
 } from '@chakra-ui/react';
-import { AiFillGithub } from 'react-icons/ai';
+
 import ProjectModal from './ProjectModal';
-import {
-  CheckCircleIcon,
-  SettingsIcon,
-  ExternalLinkIcon,
-} from '@chakra-ui/icons';
-import { FaGithub } from 'react-icons/fa';
+import { ExternalLinkIcon } from '@chakra-ui/icons';
 
 export default function Project({ project }: ProjectProps): JSX.Element {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -29,7 +20,7 @@ export default function Project({ project }: ProjectProps): JSX.Element {
         onClose={onClose}
         isOpen={isOpen}
       />
-      <Image src="https://bit.ly/2Z4KKcF" />
+      <Image src={'projectImages/' + project.name + '.png'} />
 
       <Box mt="1" fontWeight="semibold" as="h4" lineHeight="tight" isTruncated>
         <LinkOverlay href="#" onClick={onOpen}>

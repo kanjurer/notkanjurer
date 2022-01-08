@@ -7,49 +7,70 @@
       "description": "hackathon project",
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
       "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer"
+      "repositoryLink": "https://www.github.com/kanjurer",
+      "otherLinks": ["https://devpost.com/software/tiptop"]
+    },
+    {
+      "name": "tiptop",
+      "description": "hackathon project",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git", "NodeJS"],
+      "learningOutcomes": ["To create frontend", "Using component libraries"],
+      "repositoryLink": "https://www.github.com/kanjurer",
+      "otherLinks": ["https://devpost.com/software/tiptop"]
+    },
+    {
+      "name": "FoodHood",
+      "description": "a startup idea",
+      "skills": [
+        "ReactJS",
+        "HTML, CSS, JS",
+        "TypeScript",
+        "Git",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB"
+      ],
+      "learningOutcomes": [
+        "Incorporated User Authentication using sessions, and database to store users",
+        "Using component libraries",
+        "Database to store the foods",
+        "RESTful API to post the foods on the app",
+        "Created the Frontend with UI libraries, CSS, CSS preprocessors, etc."
+      ],
+      "repositoryLink": "https://www.github.com/kanjurer",
+      "otherLinks": ["https://devpost.com/software/tiptop"]
     },
     {
       "name": "tiptop",
       "description": "hackathon project",
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
       "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer"
+      "repositoryLink": "https://www.github.com/kanjurer",
+      "otherLinks": ["https://devpost.com/software/tiptop"]
     },
     {
       "name": "tiptop",
       "description": "hackathon project",
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
       "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer"
+      "repositoryLink": "https://www.github.com/kanjurer",
+      "otherLinks": ["https://devpost.com/software/tiptop"]
     },
     {
       "name": "tiptop",
       "description": "hackathon project",
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
       "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer"
+      "repositoryLink": "https://www.github.com/kanjurer",
+      "otherLinks": ["https://devpost.com/software/tiptop"]
     },
     {
       "name": "tiptop",
       "description": "hackathon project",
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
       "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer"
-    },
-    {
-      "name": "tiptop",
-      "description": "hackathon project",
-      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
-      "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer"
-    },
-    {
-      "name": "tiptop",
-      "description": "hackathon project",
-      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
-      "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer"
+      "repositoryLink": "https://www.github.com/kanjurer",
+      "otherLinks": ["https://devpost.com/software/tiptop"]
     }
   ],
   "experiences": {

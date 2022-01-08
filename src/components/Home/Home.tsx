@@ -35,6 +35,7 @@ import {
   SiNextDotJs,
   SiNodeDotJs,
   SiReact,
+  SiNodemon,
 } from 'react-icons/si';
 import { ReactComponent as DalSVG } from '../../dal-logo.svg';
 
@@ -148,6 +149,10 @@ export default function Home(): JSX.Element {
               <ListItem>
                 <ListIcon as={SiNextDotJs} />
                 NextJS
+              </ListItem>
+              <ListItem>
+                <ListIcon as={SiNodemon} />
+                ExpressJS
               </ListItem>
             </List>
           </Box>

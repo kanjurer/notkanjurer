@@ -5,19 +5,19 @@ import ExperienceEntry from './ExperienceEntry';
 
 export default function Experience(): JSX.Element {
   return (
-    <Flex flexWrap="wrap" m={5}>
+    <Flex flexWrap="wrap" m={2}>
       <Box>
         <Heading>Work Experience</Heading>
         <Box>
           <Text fontWeight="bold">Relevant</Text>
-          {data.experiences.relevantExperiences.map((exp, i) => (
+          {data.experiences.relevantExperiences.map((exp) => (
             <ExperienceEntry experience={exp} tagColor={randomColor()} />
           ))}
         </Box>
         <br />
         <Box>
           <Text fontWeight="bold">Other Experience</Text>
-          {data.experiences.otherExperiences.map((exp, i) => (
+          {data.experiences.otherExperiences.map((exp) => (
             <ExperienceEntry experience={exp} tagColor={randomColor()} />
           ))}
         </Box>
