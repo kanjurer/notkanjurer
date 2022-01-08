@@ -51,5 +51,108 @@
       "learningOutcomes": ["To create frontend", "Using component libraries"],
       "repositoryLink": "https://www.github.com/kanjurer"
     }
+  ],
+  "experiences": {
+    "relevantExperiences": [
+      {
+        "jobTitle": "Web Developer / Apprenticeship",
+        "jobCompany": "WhereDreamsConnect",
+        "jobDuration": "June 2020 – January 2021",
+        "learnings": [
+          "Handling WordPress website, maintaining CMS and UI.",
+          "Performing SEOs to rank up page organically.",
+          "Managing the DNS and hosting services.",
+          "Writing blog posts and social media marketing on Facebook to spread awareness of the brand.",
+          "Pitched a new website using ReactJS."
+        ]
+      }
+    ],
+    "otherExperiences": [
+      {
+        "jobTitle": "Security Ambassador",
+        "jobCompany": "Dalhousie University",
+        "jobLocation": "Halifax, NS",
+        "jobDuration": "September 2021 to Present",
+        "learnings": [
+          "Manage security around the campus.",
+          "Exhibit management skills and use tools like MS Teams, MS Office, etc.",
+          "Go to events and do vaccination and security checks",
+          "ommunicate with a team",
+          "Attend weekly meetings and present ideas and share weekly progress and complete tasks",
+          "Take leadership roles from time to time",
+          "Exhibit time managements"
+        ]
+      },
+      {
+        "jobTitle": "Customer Service Representative",
+        "jobCompany": "Cloud5 Communications",
+        "jobLocation": "New Brunswick, NS",
+        "jobDuration": "June 2021 to September 2021",
+        "learnings": [
+          "Inbound calls for hotel reservations.",
+          "Communication and time management skills.",
+          "Use of soft phone and other technologies."
+        ]
+      },
+      {
+        "jobTitle": "Food Worker",
+        "jobCompany": "A&L Seafoods",
+        "jobLocation": "Louisbourg, NS",
+        "jobDuration": "May 2021 to June 2021",
+        "learnings": ["Packaging crabs.", "Heavy lifting of food up to 30lb."]
+      },
+      {
+        "jobTitle": "Customer Service Representative",
+        "jobCompany": "Krishna Trading Inc",
+        "jobLocation": "Haryana, IN",
+        "jobDuration": "January 2018 to July 2020",
+        "learnings": [
+          "Cold calling to boost company sales.",
+          "Have worked as a technical support service representative and troubleshooting customers’ problems(6+ months).",
+          "Inbound and outbound calling experience.",
+          "Communication and time management skills."
+        ]
+      },
+      {
+        "jobTitle": "Cashier",
+        "jobCompany": "Big Bazaar",
+        "jobLocation": "Haryana, IN",
+        "jobDuration": "December 2017 to May 2018",
+        "learnings": [
+          "Experience with POS systems and dealing with customers.",
+          "Communication skills."
+        ]
+      }
+    ]
+  },
+  "coursework": [
+    {
+      "courseName": "CSCI 2110: Data Structure and Algorithms",
+      "courseDescription": "Standard data struture course"
+    },
+    {
+      "courseName": "CSCI 2134: Data Structure and Algorithms",
+      "courseDescription": "Standard data struture course"
+    },
+    {
+      "courseName": "CSCI 1170: Web Design and Development",
+      "courseDescription": "Standard data struture course"
+    },
+    {
+      "courseName": "CSCI 1109: Data Structure and Algorithms",
+      "courseDescription": "Standard data struture course"
+    },
+    {
+      "courseName": "CSCI 2141: Data Structure and Algorithms",
+      "courseDescription": "Standard data struture course"
+    },
+    {
+      "courseName": "CSCI 2122: Data Structure and Algorithms",
+      "courseDescription": "Standard data struture course"
+    },
+    {
+      "courseName": "CSCI 1108: Data Structure and Algorithms",
+      "courseDescription": "Standard data struture course"
+    }
   ]
 }

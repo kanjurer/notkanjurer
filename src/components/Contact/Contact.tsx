@@ -1,11 +1,12 @@
 import {
   Box,
   Button,
+  Divider,
   FormControl,
   FormHelperText,
   FormLabel,
   Heading,
-  VStack,
+  HStack,
   Input,
   Text,
   Textarea,
@@ -22,28 +23,39 @@ import {
 
 export default function Contact(): JSX.Element {
   return (
-    <>
+    <Box marginTop="50px">
       <Heading>Reach Out To Me!</Heading>
-      <Box display="flex" justifyContent="space-between">
-        <Box backgroundColor="cyan.200" w="50%" h="80vh">
+      <Box>
+        <Box w="50%" ml={10}>
           <Text fontSize="4xl">My Socials</Text>
-          <VStack>
-            <Button colorScheme="facebook" size="lg">
+          <HStack>
+            <Button colorScheme="facebook" size="lg" p="-1">
               <FaFacebook />
             </Button>
-            <Button colorScheme="twitter" size="lg">
+            <Button colorScheme="twitter" size="lg" p="-1">
               <FaTwitter />
             </Button>
-            <Button colorScheme="pink" size="lg">
+            <Button colorScheme="pink" size="lg" p="-1">
               <FaInstagram />
             </Button>
-            <Button colorScheme="linkedin" size="lg">
+            <Button colorScheme="linkedin" size="lg" p="-1">
               <FaLinkedin />
             </Button>
-          </VStack>
+          </HStack>
         </Box>
-        <Heading>OR</Heading>
-        <Box backgroundColor="green.300" w="50%" h="80vh">
+        <Box
+          style={{
+            position: 'absolute',
+            right: '10%',
+            background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+            zIndex: '100',
+            borderRadius: '20px',
+          }}
+        >
+          <Heading fontSize="72px">OR</Heading>
+        </Box>
+        <br /> <br /> <Divider />
+        <Box w="50%" m={10}>
           <Text fontSize="4xl">Leave a Message!</Text>
           <Box w="50%" m="2">
             <form>
@@ -59,10 +71,13 @@ export default function Contact(): JSX.Element {
                 <FormLabel htmlFor="message">Message</FormLabel>
                 <Textarea id="message" type="text" />
               </FormControl>
+              <Button colorScheme="teal" size="lg">
+                Send
+              </Button>
             </form>
           </Box>
         </Box>
       </Box>
-    </>
+    </Box>
   );
 }

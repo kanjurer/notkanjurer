@@ -10,9 +10,9 @@ export default function NavBar(): JSX.Element {
     <Flex padding="20px">
       <HStack spacing="12px">
         <RRLink to="/home">Home</RRLink>
-        <RRLink to="projects">Projects</RRLink>
-        <RRLink to="experience">Experience</RRLink>
-        <RRLink to="contact">Contact</RRLink>
+        <RRLink to="/projects">Projects</RRLink>
+        <RRLink to="/experience">Experience</RRLink>
+        <RRLink to="/contact">Contact</RRLink>
       </HStack>
       <Spacer />
       <HStack>

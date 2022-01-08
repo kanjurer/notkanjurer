@@ -1,0 +1,25 @@
+.vStack {
+  display: flex !important;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+.hStack {
+  display: none !important;
+}
+.heading {
+  position: absolute;
+  top: 30vw;
+  left: 2vw;
+}
+
+@media screen and (max-width: 1100px) {
+  .vStack {
+    display: none !important;
+  }
+  .hStack {
+    display: flex !important;
+    margin: 5px auto;
+    width: 400px;
+  }
+}

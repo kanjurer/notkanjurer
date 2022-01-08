@@ -1,3 +1,4 @@
+import './Home.css';
 import {
   Box,
   Button,
@@ -11,6 +12,7 @@ import {
   ListItem,
   ListIcon,
   Badge,
+  HStack,
 } from '@chakra-ui/react';
 import {
   FaCss3,
@@ -39,38 +41,18 @@ import { ReactComponent as DalSVG } from '../../dal-logo.svg';
 export default function Home(): JSX.Element {
   return (
     <Box>
-      <Image src="me.jpg" alt="Kanav Bhardwaj" />
-      <Heading
-        fontSize="72px"
-        fontFamily="arial black"
-        style={{ position: 'absolute', top: '300px', left: '100px' }}
-      >
-        This is me!
-      </Heading>
-      <VStack style={{ position: 'absolute', top: '300px', right: '100px' }}>
-        <Button colorScheme="facebook" size="lg">
-          <FaFacebook />
-        </Button>
-        <Button colorScheme="twitter" size="lg">
-          <FaTwitter />
-        </Button>
-        <Button colorScheme="pink" size="lg">
-          <FaInstagram />
-        </Button>
-        <Button colorScheme="linkedin" size="lg">
-          <FaLinkedin />
-        </Button>
-        <Button color="black" size="lg">
-          <FaGithub />
-        </Button>
-        <Button colorScheme="orange" size="lg">
-          <FaShare />
-        </Button>
-        <Button colorScheme="purple" size="lg">
-          <FaDownload />
-        </Button>
-      </VStack>
-
+      <Box>
+        <Image src="me.jpg" alt="Kanav Bhardwaj" />
+        <Heading fontSize="15vw" fontFamily="arial black" className="heading">
+          This is me!
+        </Heading>
+        <VStack className="vStack">
+          <Socials />
+        </VStack>
+      </Box>
+      <HStack className="hStack" spacing="auto">
+        <Socials />
+      </HStack>
       <Box p="10">
         <Heading fontSize="36px" fontFamily="arial black">
           About
@@ -194,5 +176,33 @@ export default function Home(): JSX.Element {
         </Flex>
       </Box>
     </Box>
+  );
+}
+
+function Socials(): JSX.Element {
+  return (
+    <>
+      <Button colorScheme="facebook" width="5vw" height="5vw" p="-1">
+        <FaFacebook />
+      </Button>
+      <Button colorScheme="twitter" width="5vw" height="5vw" size="lg" p="-1">
+        <FaTwitter />
+      </Button>
+      <Button colorScheme="pink" width="5vw" height="5vw" size="lg" p="-1">
+        <FaInstagram />
+      </Button>
+      <Button colorScheme="linkedin" width="5vw" height="5vw" size="lg" p="-1">
+        <FaLinkedin />
+      </Button>
+      <Button color="black" width="5vw" height="5vw" size="lg" p="-1">
+        <FaGithub />
+      </Button>
+      <Button colorScheme="orange" width="5vw" height="5vw" size="lg" p="-1">
+        <FaShare />
+      </Button>
+      <Button colorScheme="purple" width="5vw" height="5vw" size="lg" p="-1">
+        <FaDownload />
+      </Button>
+    </>
   );
 }
