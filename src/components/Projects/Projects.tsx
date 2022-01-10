@@ -13,7 +13,9 @@ export default function Projects(): JSX.Element {
       backgroundImage={`url(${BlocksSVG})`}
       bgRepeat="no-repeat"
       backgroundPosition="top"
+      paddingTop="90px"
     >
+      <Heading>Gallery of my Projects</Heading>
       <Box
         display="flex"
         flexWrap="wrap"

@@ -52,8 +52,8 @@
       "status": "featured"
     },
     {
-      "name": "resume",
-      "description": "This is my resume website with information about me, projects, and experiences!",
+      "name": "not-kanjurer",
+      "description": "This is my website with information about me, projects, and my cool experiences!",
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git", "ChakraUI"],
       "learningOutcomes": [
         "To create frontend",

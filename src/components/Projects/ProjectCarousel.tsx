@@ -27,6 +27,7 @@ export default function ProjectCarousel(props: any): JSX.Element {
           position: 'absolute',
           top: 0,
           left: 0,
+          zIndex: 0,
         }}
       >
         <path
@@ -34,7 +35,9 @@ export default function ProjectCarousel(props: any): JSX.Element {
           style={{ stroke: 'none', fill: props.color }}
         ></path>
       </svg>
-      <Text fontSize="2xl">{props.text}</Text>
+      <Text fontSize="2xl" zIndex="10000">
+        {props.text}
+      </Text>
       <Carousel
         autoPlay
         swipeable

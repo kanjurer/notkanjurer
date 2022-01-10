@@ -11,17 +11,16 @@ import {
   Textarea,
 } from '@chakra-ui/react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import BlobSVG from '../../SVGs/blob.svg';
+import WavesOpacitySVG from '../../SVGs/wavesOpacity.svg';
 
 export default function Contact(): JSX.Element {
   return (
     <Box
-      m="auto"
-      width="75%"
-      backgroundImage={`url(${BlobSVG})`}
+      backgroundImage={`url(${WavesOpacitySVG})`}
       bgRepeat="no-repeat"
       backgroundPosition="top"
       paddingTop="90px"
+      margin="0 50px"
     >
       <Heading>Reach Out To Me!</Heading>
       <Box>
