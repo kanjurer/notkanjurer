@@ -8,12 +8,11 @@ import BlocksSVG from '../../SVGs/blocks.svg';
 export default function Projects(): JSX.Element {
   return (
     <Box
-      m="1"
       textAlign="center"
       backgroundImage={`url(${BlocksSVG})`}
       bgRepeat="no-repeat"
       backgroundPosition="top"
-      paddingTop="90px"
+      padding="90px 10px 0px 10px"
     >
       <Heading>Gallery of my Projects</Heading>
       <Box

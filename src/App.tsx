@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Experience from './components/Experience/Experience';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 export default function App(): JSX.Element {
   return (
@@ -18,6 +19,7 @@ export default function App(): JSX.Element {
           <Route path="/experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </ChakraProvider>
   );

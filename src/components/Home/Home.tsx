@@ -13,6 +13,7 @@ import {
   ListIcon,
   Badge,
   HStack,
+  Link,
 } from '@chakra-ui/react';
 import {
   FaCss3,
@@ -28,6 +29,8 @@ import {
   FaTwitter,
   FaReddit,
   FaStackOverflow,
+  FaChessKnight,
+  FaList,
 } from 'react-icons/fa';
 import { IoMdSettings } from 'react-icons/io';
 import {
@@ -38,8 +41,10 @@ import {
   SiReact,
   SiNodemon,
 } from 'react-icons/si';
-import { ReactComponent as DalSVG } from '../../dal-logo.svg';
+import { ReactComponent as DalSVG } from '../../SVGs/dal-logo.svg';
 import ArrowSVG from '../../SVGs/arrow.svg';
+import data from '../../data.json';
+import HoverToTextButton from '../../HoverToTextButton/HoverToTextButton';
 
 export default function Home(): JSX.Element {
   return (
@@ -49,11 +54,11 @@ export default function Home(): JSX.Element {
         <Heading fontSize="15vw" fontFamily="arial black" className="heading">
           This is me!
         </Heading>
-        <VStack className="vStack">
+        <VStack className="vStack" w={200}>
           <Socials />
         </VStack>
       </Box>
-      <HStack className="hStack" spacing="auto">
+      <HStack className="hStack" spacing="auto" overflow="hidden">
         <Socials />
       </HStack>
       <br />
@@ -101,7 +106,7 @@ export default function Home(): JSX.Element {
           textAlign="center"
         >
           <Heading fontSize="36px" fontFamily="arial black">
-            Technical Skills
+            What I have been doing?
           </Heading>
           <Flex justifyContent="center" flexWrap="wrap">
             <Box p="5">
@@ -205,6 +210,44 @@ export default function Home(): JSX.Element {
             </Badge>
           </Flex>
         </Box>
+        <Box
+          p="10"
+          backgroundImage={`url(${ArrowSVG})`}
+          bgRepeat="no-repeat"
+          textAlign="center"
+        >
+          <Heading fontSize="36px" fontFamily="arial black">
+            Other Stuff
+          </Heading>
+          I watch anime in my free time, learn chess, and play fingerstyle
+          guitar, stalk me!
+          <br />
+          <br />
+          <Link target="_blank" href="https://lichess.org/@/kanjurer" m={2}>
+            <Button
+              leftIcon={<FaChessKnight />}
+              colorScheme="teal"
+              variant="solid"
+            >
+              Play Chess With Me
+            </Button>
+          </Link>
+          <br />
+          <br />
+          <Link
+            target="_blank"
+            href="https://myanimelist.net/profile/kanjurer"
+            m={2}
+          >
+            <Button
+              leftIcon={<FaList />}
+              colorScheme="telegram"
+              variant="solid"
+            >
+              MyAnimeList
+            </Button>
+          </Link>
+        </Box>
       </Box>
     </Box>
   );
@@ -213,30 +256,76 @@ export default function Home(): JSX.Element {
 function Socials(): JSX.Element {
   return (
     <>
-      <Button colorScheme="linkedin" width="5vw" height="5vw" size="lg" p="-1">
-        <FaLinkedin />
-      </Button>
-      <Button color="black" width="5vw" height="5vw" size="lg" p="-1">
-        <FaGithub />
-      </Button>
-      <Button colorScheme="facebook" width="5vw" height="5vw" p="-1">
-        <FaFacebook />
-      </Button>
-      <Button colorScheme="twitter" width="5vw" height="5vw" size="lg" p="-1">
-        <FaTwitter />
-      </Button>
-      <Button colorScheme="red" width="5vw" height="5vw" size="lg" p="-1">
-        <FaReddit />
-      </Button>
-      <Button colorScheme="pink" width="5vw" height="5vw" size="lg" p="-1">
-        <FaInstagram />
-      </Button>
-      <Button colorScheme="orange" width="5vw" height="5vw" size="lg" p="-1">
-        <FaStackOverflow />
-      </Button>
-      <Button colorScheme="purple" width="5vw" height="5vw" size="lg" p="-1">
-        <FaDownload />
-      </Button>
+      <Link target="_blank" href={data.socials.gitHub}>
+        <HoverToTextButton
+          color="black"
+          minWidth="5vw"
+          height="5vw"
+          p="-1"
+          text="Git Hub"
+          icon={<FaGithub />}
+        />
+      </Link>
+      <Link target="_blank" href={data.socials.stackOverflow}>
+        <HoverToTextButton
+          colorScheme="orange"
+          minWidth="5vw"
+          height="5vw"
+          p="-1"
+          icon={<FaStackOverflow />}
+          text="Stack Overflow"
+        />
+      </Link>
+      <Link target="_blank" href={data.socials.linkedIn}>
+        <HoverToTextButton
+          colorScheme="linkedin"
+          minWidth="5vw"
+          height="5vw"
+          p="-1"
+          icon={<FaLinkedin />}
+          text=" LinkedIn"
+        />
+      </Link>
+      <Link target="_blank" href={data.socials.facebook}>
+        <HoverToTextButton
+          colorScheme="facebook"
+          minWidth="5vw"
+          height="5vw"
+          p="-1"
+          icon={<FaFacebook />}
+          text="Facebook"
+        />
+      </Link>
+      <Link target="_blank" href={data.socials.twitter}>
+        <HoverToTextButton
+          colorScheme="twitter"
+          minWidth="5vw"
+          height="5vw"
+          p="-1"
+          icon={<FaTwitter />}
+          text="Twitter"
+        />
+      </Link>
+      <Link target="_blank" href={data.socials.reddit}>
+        <HoverToTextButton
+          colorScheme="red"
+          minWidth="5vw"
+          height="5vw"
+          p="-1"
+          icon={<FaReddit />}
+          text="Reddit"
+        />
+      </Link>
+      <Link target="_blank" href={data.socials.instagram}>
+        <HoverToTextButton
+          colorScheme="pink"
+          minWidth="5vw"
+          height="5vw"
+          p="-1"
+          icon={<FaInstagram />}
+          text="Instagram"
+        />
+      </Link>
     </>
   );
 }

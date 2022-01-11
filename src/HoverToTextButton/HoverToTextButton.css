@@ -1,0 +1,20 @@
+.hoverToTextBtn:hover {
+  animation-duration: 1s;
+  animation-name: example;
+  animation-fill-mode: both;
+  width: 5vw;
+}
+
+@keyframes example {
+  100% {
+    width: 15vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  @keyframes example {
+    100% {
+      width: 25vw;
+    }
+  }
+}

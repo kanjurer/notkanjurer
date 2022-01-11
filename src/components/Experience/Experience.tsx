@@ -8,11 +8,10 @@ export default function Experience(): JSX.Element {
   return (
     <Flex
       flexWrap="wrap"
-      m={2}
       backgroundImage={`url(${WavesSVG})`}
       bgRepeat="no-repeat"
       backgroundPosition="top"
-      paddingTop="90px"
+      padding="90px 10px 0px 10px"
     >
       <Box>
         <Heading>Work Experience</Heading>
