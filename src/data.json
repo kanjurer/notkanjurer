@@ -12,11 +12,14 @@
   "projects": [
     {
       "name": "serobu",
-      "description": "hackathon project",
-      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git"],
-      "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer",
-      "otherLinks": ["https://devpost.com/software/tiptop"],
+      "description": "a hackathon project",
+      "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git", "AntDesign"],
+      "learningOutcomes": [
+        "Create frontend using component libraries",
+        "UI/UX"
+      ],
+      "repositoryLink": "https://github.com/kanjurer/serobu",
+      "otherLinks": [],
       "status": "others"
     },
     {
@@ -24,7 +27,7 @@
       "description": "hackathon project",
       "skills": ["ReactJS", "HTML", "CSS", "JavaScript", "Git", "NodeJS"],
       "learningOutcomes": ["To create frontend", "Using component libraries"],
-      "repositoryLink": "https://www.github.com/kanjurer",
+      "repositoryLink": "https://github.com/luclegere/hackathon",
       "otherLinks": ["https://devpost.com/software/tiptop"],
       "status": "others"
     },
@@ -47,8 +50,8 @@
         "RESTful API to post the foods on the app",
         "Created the Frontend with UI libraries, CSS, CSS preprocessors, etc."
       ],
-      "repositoryLink": "https://www.github.com/kanjurer",
-      "otherLinks": ["https://devpost.com/software/tiptop"],
+      "repositoryLink": "https://www.github.com/kanjurer/foodhood-frontend",
+      "otherLinks": ["https://www.github.com/kanjurer/foodhood-backend"],
       "status": "featured"
     },
     {
@@ -81,7 +84,7 @@
         "TypeScript",
         "NextJS"
       ],
-      "learningOutcomes": ["", "Develop User Authentication"],
+      "learningOutcomes": ["Not much decided as it is still under progress :P"],
       "repositoryLink": "https://github.com/kanjurer/sociohab-frontend",
       "otherLinks": ["https://github.com/kanjurer/sociohab-backend"],
       "status": "current"
@@ -95,7 +98,7 @@
         "Using component libraries",
         "Using Git as version control"
       ],
-      "repositoryLink": "https://github.com/kanjurer/resume",
+      "repositoryLink": "https://github.com/kanjurer/resume-old",
       "otherLinks": ["http://www.kanjurer.xyz"],
       "status": "others"
     },
@@ -113,7 +116,7 @@
       ],
       "learningOutcomes": ["N/A"],
       "repositoryLink": "https://www.github.com/kanjurer/youraveragecsguy-fe",
-      "otherLinks": [],
+      "otherLinks": ["https://www.github.com/kanjurer/youraveragecsguy-fe"],
       "status": "current"
     }
   ],

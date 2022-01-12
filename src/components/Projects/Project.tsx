@@ -31,9 +31,7 @@ export default function Project({ project }: ProjectProps): JSX.Element {
       <Image src={'projectImages/' + project.name + '.png'} />
 
       <Box mt="1" fontWeight="semibold" as="h4" lineHeight="tight" isTruncated>
-        <LinkOverlay href="#" onClick={onOpen}>
-          {project.name}
-        </LinkOverlay>
+        <LinkOverlay onClick={onOpen}>{project.name}</LinkOverlay>
       </Box>
 
       <Box>
@@ -56,5 +54,6 @@ interface ProjectProps {
     repositoryLink: string;
     skills: Array<string>;
     learningOutcomes: Array<string>;
+    otherLinks: Array<string>;
   };
 }

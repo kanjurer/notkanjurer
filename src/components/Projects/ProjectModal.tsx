@@ -50,6 +50,16 @@ export default function ProjectModal(props: ProjectModalProps): JSX.Element {
               </ListItem>
             ))}
           </List>
+          {project.otherLinks.length > 0 && (
+            <>
+              <Text fontSize="2xl">Additional Link(s):</Text>
+              {project.otherLinks.map((e) => (
+                <Link href={e} isExternal>
+                  {e}
+                </Link>
+              ))}
+            </>
+          )}
         </ModalBody>
         <ModalFooter>
           <Button
@@ -78,5 +88,6 @@ interface ProjectModalProps {
     repositoryLink: string;
     skills: Array<string>;
     learningOutcomes: Array<string>;
+    otherLinks: Array<string>;
   };
 }

@@ -110,7 +110,7 @@ export default function Home(): JSX.Element {
           </Heading>
           <Flex justifyContent="center" flexWrap="wrap">
             <Box p="5">
-              <Heading>Tools</Heading>
+              <Text fontSize="3xl">Tools</Text>
               <List spacing={1}>
                 <ListItem>
                   <ListIcon as={IoMdSettings} />
@@ -123,7 +123,7 @@ export default function Home(): JSX.Element {
               </List>
             </Box>
             <Box p="5">
-              <Heading>Languages</Heading>
+              <Text fontSize="3xl">Languages</Text>
               <List spacing={1}>
                 <ListItem>
                   <ListIcon as={FaJava} />
@@ -148,7 +148,7 @@ export default function Home(): JSX.Element {
               </List>
             </Box>
             <Box p="5">
-              <Heading>Databases</Heading>
+              <Text fontSize="3xl">Databases</Text>
               <List spacing={1}>
                 <ListItem>
                   <ListIcon as={SiMysql} />
@@ -161,7 +161,7 @@ export default function Home(): JSX.Element {
               </List>
             </Box>
             <Box p="5">
-              <Heading>Frameworks</Heading>
+              <Text fontSize="3xl">Frameworks</Text>
               <List spacing={1}>
                 <ListItem>
                   <ListIcon as={SiReact} />

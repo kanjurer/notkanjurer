@@ -1,4 +1,4 @@
-import { Box, Text } from '@chakra-ui/react';
+import { Box, Heading, Text } from '@chakra-ui/react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -27,7 +27,7 @@ export default function ProjectCarousel(props: any): JSX.Element {
           position: 'absolute',
           top: 0,
           left: 0,
-          zIndex: 0,
+          zIndex: -1,
         }}
       >
         <path
@@ -35,9 +35,9 @@ export default function ProjectCarousel(props: any): JSX.Element {
           style={{ stroke: 'none', fill: props.color }}
         ></path>
       </svg>
-      <Text fontSize="2xl" zIndex="10000">
+      <Heading fontSize="2xl" mt={5}>
         {props.text}
-      </Text>
+      </Heading>
       <Carousel
         autoPlay
         swipeable
