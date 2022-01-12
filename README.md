@@ -7,5 +7,5 @@ my own website
 3. ReactJS
 
 ### Future Plans
-add blog
+add markdown blog
 
