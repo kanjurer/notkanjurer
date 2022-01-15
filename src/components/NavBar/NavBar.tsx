@@ -11,6 +11,7 @@ export default function NavBar(): JSX.Element {
         <RRLink to="/">Home</RRLink>
         <RRLink to="/projects">Projects</RRLink>
         <RRLink to="/experience">Experience</RRLink>
+        <RRLink to="/blog">Blog</RRLink>
         <RRLink to="/contact">Contact</RRLink>
       </HStack>
       <Spacer />

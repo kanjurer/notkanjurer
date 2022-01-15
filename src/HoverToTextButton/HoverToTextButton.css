@@ -1,5 +1,5 @@
 .hoverToTextBtn:hover {
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-name: example;
   animation-fill-mode: both;
   width: 5vw;

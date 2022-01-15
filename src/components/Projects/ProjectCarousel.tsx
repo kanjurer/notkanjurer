@@ -18,7 +18,7 @@ export default function ProjectCarousel(props: any): JSX.Element {
     },
   };
   return (
-    <Box w="440px" textAlign="center" position="relative">
+    <Box w="430px" textAlign="center" position="relative">
       <svg
         viewBox="0 0 500 500"
         preserveAspectRatio="xMinYMin meet"

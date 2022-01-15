@@ -72,15 +72,7 @@ export default function Home(): JSX.Element {
           <Heading fontSize="36px" fontFamily="arial black">
             About
           </Heading>
-          <Text>
-            Your resume is your opportunity to present yourself as the most
-            qualified candidate for the position for which you are applying.
-            Including an “about me” section in your resume can help you stand
-            out as a candidate hiring managers or recruiters want to learn more
-            about, which can help you get an interview. In this article, we
-            discuss what an “about me” section in a resume entails, the benefits
-            of including an “about me” section and examples of how to write one.
-          </Text>
+          <Text>Howdie! I am Kanav, and I do stuff</Text>
         </Box>
         <Box
           p="10"
