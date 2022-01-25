@@ -1,0 +1,13 @@
+name = "notkanjurer"
+type = "webpack"
+route = ''
+zone_id = ''
+usage_model = ''
+compatibility_flags = []
+workers_dev = true
+compatibility_date = "2022-01-15"
+account_id = "21eba3dc234385b232b5ee3d0ba7c3b1"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
