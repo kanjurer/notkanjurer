@@ -1,3 +1,6 @@
+# Deprecation ⚠️
+I have updated my old website. The repository can be found [here](https://github.com/kanjurer/website)
+
 ### this is me!
 my own website
 
